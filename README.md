@@ -125,10 +125,3 @@ def drawInitials (ref=(0,0), w=100, spacing=10):
     uFlag ((ref[0]-2*w-2*spacing, ref[1]), w)
     done ()
     speed(0) # keep speed fast, to help the TA's grade
-
-
-# drawInitials ((320,-100), 200, 20)
-
-# IMPORTANT: 
-# you may uncomment this line to test (and, of course, should add other tests).
-# but submit code with no testing calls, just the function definitions
