@@ -118,4 +118,4 @@ def drawInitials (ref=(0,0), w=100, spacing=10):
     zFlag ((ref[0]-w-spacing, ref[1]), w)
     uFlag ((ref[0]-2*w-2*spacing, ref[1]), w)
     done ()
-    speed(0) # keep speed fast, to help the TA's grade
+    speed(0)
