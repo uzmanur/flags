@@ -120,7 +120,7 @@ def nFlag (r,w):
 
 def drawInitials (ref=(0,0), w=100, spacing=10):
 
-    """Using turtle graphics, draw *your* 3 initials in maritime signal flags.
+    """Using turtle graphics, draw initials UZN in maritime signal flags.
     
     Params:
         ref (int 2-tuple): bottom right corner, the reference point
@@ -133,11 +133,7 @@ def drawInitials (ref=(0,0), w=100, spacing=10):
     zFlag ((ref[0]-w-spacing, ref[1]), w)
     uFlag ((ref[0]-2*w-2*spacing, ref[1]), w)
     done ()
-    speed(0) # keep speed fast, to help the TA's grade
+    speed(0)
 
 
 drawInitials ((320,-100), 200, 20)
-
-# IMPORTANT: 
-# you may uncomment this line to test (and, of course, should add other tests).
-# but submit code with no testing calls, just the function definitions
