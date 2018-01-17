@@ -1,6 +1,3 @@
-# 103 Johnstone UAB Fall 2016
-# Your name: Uzma Nur
-
 from turtle import *
 
 
